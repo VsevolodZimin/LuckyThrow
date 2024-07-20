@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cube.css">
+</head>
+<body>
+    <div class="game--area">
+        <div class="gameover--screen">
+            <span>Te espero con mas pasta</span>
+        </div>
+        <div class="right--side">
+            <header>
+                <h1 class="main--heading"><span class="first--letter">¿T</span>e sientes con suerte?</h1>
+                <img class="clover" src="./img/clover.png" alt="clover">
+            </header>
+            <div class="nametag--number">
+                <h1>Pon aquí un numero entre <span class="num">1</span> y <span class="num">6</span>:</h1>
+            </div>
+            <div class="field--number">
+                <input class="field" type="text">
+                <p class="problem"></p>
+            </div>
+            <div class="nametag--betsize">
+                <h1>Esto es lo que apuestas:</h1>
+            </div>
+            <div class="field--betsize">
+                <input class="field " type="text">
+                <p class="problem"></p>
+            </div>
+            <div class="nametag--balance">
+                <h1>Esto es lo que te queda:</h1>
+            </div>
+            <div class="field--balance">
+                <input class="field" type="text" readonly>
+                <p class="problem"></p>
+            </div>
+            <button class="dale active">
+                dale
+            </button>
+        </div>
+
+
+        <div class="left--side">
+            <p class="result--text"></p>
+            <div class="scene">
+                <div class="cube">
+                    <div class="top side">
+                        <img class="image" src="./img/dice1.png" alt="">
+                    </div>
+                    <div class="bottom side">
+                        <img class="image" src="./img/dice2.png" alt="">
+                    </div>
+                    <div class="left side">
+                        <img class="image" src="./img/dice3.png" alt="">
+                    </div>
+                    <div class="right side">
+                        <img class="image" src="./img/dice4.png" alt="">
+                    </div>
+                    <div class="front side">
+                        <img class="image" src="./img/dice5.png" alt="">
+                    </div>
+                    <div class="back side">
+                        <img class="image" src="./img/dice6.png" alt="">
+                    </div>
+                </div>
+                <div class="shadow"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
